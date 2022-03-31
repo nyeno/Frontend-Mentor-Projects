@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Spartan:wght@700&display=swap');
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+main{
+    width: clamp(350px, 40%, 600px);
+    background-color: hsl(217, 19%, 24%);
+    margin: auto;
+    margin-top: 25vh;
+    text-align: center;
+    position: relative;
+    padding:1em 2em;
+    padding-bottom: 2.5em;
+    margin-bottom: 2.5em;
+    border-radius: 10px;
+}
+p, footer{
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+
+}
+footer{
+    text-align: justify;
+    padding: 1.5em;
+    text-transform: none;
+}
+
+#advice{
+    color: hsl(193, 38%, 86%);
+    font-size: 1.2rem;
+    text-transform: none;
+    letter-spacing: normal;
+    margin:1em 0;
+}
+.decorative-div{
+    padding: 1.5em 0;
+}
+img, picture{
+    margin: auto;
+}
+
+button{
+    background-color: hsl(150, 100%, 66%);
+    padding: 1em;
+    border: transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 1.5em);
+    bottom: -1.5em;
+    cursor: pointer;
+}
+button:hover, button:active{
+    box-shadow: 0px 0px 10px 5px hsl(150, 100%, 66%);
+}
+
