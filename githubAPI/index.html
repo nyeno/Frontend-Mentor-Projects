@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+  <script src="https://kit.fontawesome.com/1d6fdbe0f1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>GitHub API</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <h1>devFinder</h1>
+        <form action="" id="search-form">
+          <input type="text" name="search" id="search-input" placeholder="Search GitHub username_">
+          <button type="submit">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <img src="me.png" alt="" id="avatar">
+      <section class="details">
+        <p id="full_name">The Octocat</p>
+        <p id="user_name">octocat</p>
+        <p>Joined in <span id="date_joined">25 Jun 2020</span></p>
+        <p id="bio">This user has no bio</p>
+        <table>
+          <tr>
+            <td>Repos</td>
+            <td>Followers</td>
+            <td>Following</td>
+          </tr>
+          <tr class="counts">
+            <td id="repos_count">8</td>
+            <td id="followers_count">3038</td>
+            <td id="following_count">0</td>
+          </tr>
+        </table>
+        <div class="links">
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <span id="location">Location</span>
+          </p>
+          <a href="https://twitter.com/home" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+            <span id="twitter">Twitter</span> 
+          </a>
+          <a target="_blank" href="https://github.com/">
+            <i class="fa-solid fa-link"></i>
+            <span id="link">GitHub Profile</span> 
+          </a>
+          <p>
+            <i class="fa-solid fa-building"></i>
+            <span id="company">Company</span> 
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+ 
+  <script src="index.js"></script>
+</body>
+</html>
