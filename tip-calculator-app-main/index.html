@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Eno Nyenooke | Tip calculator app</title>
+
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Splitter logo">
+  </header>
+  <main>
+    <section>
+      <p class="headings">Bill</p>
+      <div class="forms">
+        <img src="images/icon-dollar.svg" alt="" srcset="">
+        <input type="number" name="bill" id="bill" value="0" placeholder="0">
+      </div>
+      <p>Select tip %</p>
+      <div class="btn-group"> 
+        <button class="tip-percent" value="5">5%</button>
+        <button class="tip-percent" value="10">10%</button>
+        <button class="tip-percent" value="15">15%</button>
+        <button class="tip-percent" value="25">25%</button>
+        <button class="tip-percent" value="50">50%</button>
+        <input type="number" name="" id="custom-tip-percent" placeholder="Custom">
+      </div>
+      <p class="headings">Number Of People</p>
+      <div class="forms">
+        <img src="images/icon-person.svg" alt="">
+        <input type="number" id="people" value="0" placeholder="0" >
+      </div>
+    </section>
+    <section class="output">
+      <div>
+        <p>Tip Amount 
+          <span class="per-person">/ person</span>
+        </p>
+        <p class="dollar">
+          <img src="images/icon-dollar.svg" alt="" srcset="">
+          <span id="tip-per-person">0.00</span>
+          </p>
+      </div>
+      <div>
+        <p>Total
+          <span class="per-person">/ person</span>
+        </p>
+        <p class="dollar">
+          <img src="images/icon-dollar.svg" alt="" srcset="">
+          <span id="total-tip">0.00</span>
+        </p>
+      </div>
+      <button type="reset" id="reset">RESET</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
