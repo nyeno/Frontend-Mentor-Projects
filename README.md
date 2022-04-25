@@ -2,7 +2,10 @@
 ## Newbie Level Project
 
 ### Social-proof Section
-This was a very basic project for testing how well I understand layout. View the live site [here](https://eno-social-proof-section.netlify.app/) 
+This was a very basic project for testing how well I understand layout. The sections appear as block elements on small screens but use CSS grid on larget screens. View the live site [here](https://eno-testimonials.netlify.app/) 
+
+### Testimonials Grid Section
+This was a very basic project for practicing CSS grid as well as media queries. View the live site [here](https://eno-social-proof-section.netlify.app/) 
 
 ## Junior Level Projects
 
