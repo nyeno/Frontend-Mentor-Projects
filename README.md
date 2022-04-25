@@ -20,3 +20,6 @@ This was a very basic project for practicing CSS grid as well as media queries. 
 
 ### SunnySide Agency Project
   In this project, I practiced my CSS grid chops by building a very colorful landing page. View the live landing page [here](https://eno-sunnyside-agency.netlify.app/)
+  
+### Fylo Dark Theme Project
+  In this project, I practiced how to layout a page using CSS flexbox. View the live landing page [here](https://eno-fylo-landingpage.netlify.app/)
