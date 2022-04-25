@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header id="welcome-section">
+    <nav class="top-nav" id="navbar">
+      <a href=""><img src="images/logo.svg" alt="suunyside logo" id="header-img"></a>
+      <a href="" class="desktop-hidden" id="nav-button"><img src="images/icon-hamburger.svg" alt=""></a>
+      <section class="mobile-hidden">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </section>
+    </nav>
+    <h1>
+      We are creatives
+    </h1>
+    <img src="images/icon-arrow-down.svg" alt="">
+  </header>
+
+  <section class="first" id="about">
+    <div  class="egg"></div>
+    <article class="transform">
+      <h2>Transform your brand</h2>
+      <p  class="text">
+        We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <p class="learn-more">
+        Learn more
+      </p>
+      <div class="underline  yellow"></div>
+    </article>
+  </section>
+  <section class="second">
+    <div class="cup"></div>
+    <article class="transform">
+      <h2>Stand out to the right audience</h2>
+      <p class="text"> Using a collaborative formula of designers, researchers, 
+        photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+      <p class="learn-more">
+        Learn more
+      </p>
+      <div class="underline  pink"></div>
+    </article>
+  </section>
+  <section class="third" id="services">
+    <article class="cherry flow">
+      <h2>Graphic design</h2>
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and
+         captures potential clients’ attention.</p>
+    </article>
+    <article class="orange flow">
+      <h2>Photography</h2>
+      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </article>
+  </section>
+
+  <section class="testimonies" id="projects">
+    <h2>Client testimonials</h2>  
+    <div>
+      <article class="project-tile">
+        <img src="images/image-emily.jpg" alt="Emily" class="testimony-img">
+        <p class="testimony">
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <p class="name">
+          Emily R.
+        </p>
+        <p class="role">
+          Marketing Director
+        </p>
+      </article>
+      <article class="project-tile">
+        <img src="images/image-thomas.jpg" alt="Thomas" class="testimony-img">
+        <p class="testimony">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+        <p class="name">
+          Thomas S.
+        </p>
+        <p class="role">
+          Chief Operating Officer
+        </p>
+      </article>
+      <article class="project-tile">
+        <img src="images/image-jennie.jpg" alt="Jennie" class="testimony-img">
+        <p class="testimony">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+        <p class="name">
+          Jennie F.
+        </p>
+        <p class="role">
+          Business Owner
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="galleria">
+    <div class="gallery milkbottles"></div>
+    <div class="gallery oranges"></div>
+    <div class="gallery cone"></div>
+    <div class="gallery sugarcubes"></div>
+  </section>
+  <footer id="contact">
+    <img src="images/logo.svg" alt="">
+    <nav class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/nyeno" target="_blank" id="profile-link">My works</a>
+      <!--<p>Contact</p>-->
+    </nav>
+    <div>
+      <img src="images/icon-facebook.svg" alt="">
+      <img src="images/icon-instagram.svg" alt="">
+      <img src="images/icon-twitter.svg" alt="">
+      <img src="images/icon-pinterest.svg" alt="">
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Eno Laura</a>.
+    </div>
+  </footer>
+
+  <nav id="dropdown-mobile"  class="hidden dropdown-mobile">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+:root{
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    line-height: 1.5;
+}
+header{
+    background-image: url(./images/mobile/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    font-family: 'Fraunces', serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #fff;
+    line-height: 1.2;
+}
+.top-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #3ebfff;
+}
+header>h1{
+    padding: 25% 0 10%;
+}
+h2{
+    font-family: 'Fraunces', serif;
+    padding-bottom: 1em;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > *{
+    padding: 1em;
+}
+.transform{
+    height: 75vh;
+    padding: 2.5em 1.2em;
+}
+.transform> h2{
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 1em;
+    font-weight: 600;
+    color: hsl(212, 27%, 19%);
+}
+.learn-more{
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: hsl(212, 27%, 19%);
+}
+.underline{
+    border: 4px solid;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -10px;
+    border-radius: 4px;
+}
+.yellow{
+    border-color: hsla(51, 100%, 49%, 0.4);
+    background-color: hsla(51, 100%, 49%, 0.4);
+}
+.pink{
+    border-color: hsla(7, 99%, 70%, 0.4);
+    background-color: hsla(7, 99%, 70%, 0.4);
+}
+
+.transform > .text{
+    color: hsl(232, 10%, 55%);
+    padding-bottom: 1.2em;
+    font-size: 1.1rem;
+}
+.egg{
+    background-image: url(./images/mobile/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+.cup{
+    background-image: url(./images/mobile/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+}
+.flow{
+    background-size: cover;
+    background-position: top;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 3em; 
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.cherry{
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+    color: hsl(167, 40%, 24%);
+}
+.orange{
+    background-image: url(./images/mobile/image-photography.jpg);
+    color: hsl(198, 62%, 26%);
+}
+.gallery{
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+.oranges{
+    background-image: url(./images/mobile/image-gallery-orange.jpg);
+}
+.cone{
+    background-image: url(./images/mobile/image-gallery-cone.jpg);
+}
+.milkbottles{
+    background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+}
+.sugarcubes{
+    background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+}
+
+.testimony-img{
+    border-radius: 50%;
+}
+.testimonies article{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.testimonies h2{
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 1rem;
+    padding-top: 3em;
+}
+.testimonies img{
+    width: 20%;
+    margin-bottom: 2em;
+}
+.testimony{
+    color: hsl(213, 9%, 39%);
+    padding: 0 1em 2em;
+    font-size: 1.2rem;
+}
+.name{
+    font-family: 'Fraunces', serif;
+    padding-bottom: 0.4em;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: hsl(212, 27%, 19%);
+}
+.role{
+    color: hsl(210, 4%, 67%);
+    font-size: 1rem;
+}
+.galleria{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+}
+.galleria > *{
+    height: 25vh;
+}
+footer{
+    padding: 5% 10%;
+    background-color: hsla(168, 34%, 41%, 0.75);
+}
+footer nav p{
+    color: hsl(167, 40%, 24%);
+    font-size: 1rem;
+    margin-bottom: 2.5em;
+    margin-top: 1em;
+}
+footer div img{
+    margin-right: 1.5em;
+}
+.desktop-hidden{
+    display: block;
+}
+.mobile-hidden{
+    display: none;
+}
+
+.dropdown-mobile{
+    position: fixed;
+    top: 15%;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 4px;
+}
+.dropdown-mobile>*{
+    text-decoration: none;
+    color: hsl(213, 9%, 39%);
+    font-family: Barlow;
+    padding: 0.5rem 1rem;
+    margin: 3% auto
+}
+.hidden{
+    display: none;
+}
+.dropdown-mobile>*:hover{
+    color:hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 25px;
+    width: fit-content;
+    font-family: Fraunces;
+
+}
+
+@media (min-width: 900px) {
+    .mobile-hidden{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40vw;
+        padding-right: 2%;
+    }
+    .desktop-hidden{
+        display: none;
+    }
+    .galleria{
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+    }
+    .oranges{
+        background-image: url(./images/desktop/image-gallery-orange.jpg);
+    }
+    .cone{
+        background-image: url(./images/desktop/image-gallery-cone.jpg);
+    }
+    .milkbottles{
+        background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    }
+    .sugarcubes{
+        background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    }
+    .galleria > *{
+        height: 50vh;
+    }
+    .testimonies div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .testimony{
+        font-size: 85%;
+    }
+    footer{
+        height: 50vh;
+    }
+    footer>nav{
+        display: flex;
+        justify-content: center;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .cherry{
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+        color: hsl(167, 40%, 24%);
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .orange{
+        background-image: url(./images/desktop/image-photography.jpg);
+        color: hsl(198, 62%, 26%);
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .second{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .cup{
+        background-image: url(./images/desktop/image-stand-out.jpg);
+        height: 80vh;
+    }
+    .transform{
+        text-align: left;
+        padding: 20% 20%;
+    }
+    .underline{
+        border: 4px solid;
+        width: calc(inherit - 50%);
+        margin: 0;
+        margin-top: -10px;
+        border-radius: 4px;
+    }
+    .yellow{
+        border-color: hsla(51, 100%, 49%, 0.4);
+        background-color: hsla(51, 100%, 49%, 0.4);
+    }
+    .pink{
+        border-color: hsla(7, 99%, 70%, 0.4);
+        background-color: hsla(7, 99%, 70%, 0.4);
+    }
+    .learn-more{
+        margin-left: 5px;
+    }
+    .first{
+        display: grid;
+        grid-template-areas: "notegg egg";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .first>.transform{
+        grid-area: notegg;
+    } 
+    .egg{
+        grid-template: egg;
+        height: 80vh;
+        background-image: url(images/desktop/image-transform.jpg);
+    }
+    header{
+        background-image: url(./images/desktop/image-header.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        font-family: 'Fraunces', serif;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        color: #fff;
+        line-height: 1.2;
+    }
+    header>h1{
+        padding: 10% 0 5%;
+    }
+    header .mobile-hidden>*{
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: #fff;
+        font-family: Barlow;
+        letter-spacing: 3px;
+        padding: 2% 4%;
+    }
+    .footer-nav{
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .footer-nav>*{
+        text-decoration: none;
+        font-family: Barlow;
+        letter-spacing: 3px;
+        padding: 0.5% 2%;
+        color: hsl(167, 40%, 24%);
+    }
+    header .mobile-hidden>*:hover, .footer-nav>*:hover {
+        color: hsl(212, 27%, 19%);
+        text-transform: uppercase;
+        background-color: #fff;
+        border-radius: 25px;
+        font-family: Fraunces;
+    }
+  
+}
