@@ -1,0 +1,143 @@
+    :root{
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+
+    * {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Spartan', sans-serif;
+        background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+        background-position: left top, right bottom;
+        background-repeat: no-repeat;
+    }
+    .container{
+        margin: 2.5% 10%;
+        width: 80%;
+    }
+    .top{
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5%;
+    }
+    h1{
+        font-size: 3rem;
+        margin-bottom: 1em;
+        color : hsl(300, 43%, 22%);
+    }
+    .stars{
+    background-color:  hsl(300, 24%, 96%);
+    padding: 0.8em 2em;
+    border: transparent;
+    border-radius: 8px;
+    width: 95%;
+    text-align: center;
+    }
+    .inguru{
+        margin-left: 3em;
+    }
+    .intech{
+        margin-left: 6em;
+    }
+    .reviews{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4em;
+        
+    }
+    span{
+        margin-left: 2em;
+    }
+   .reviews > section{
+       background-color: hsl(300, 43%, 22%);
+       border: transparent;
+       border-radius: 8px;
+       padding: 2.5em;
+       color: white;
+       margin-right: 2em;
+   }
+   section > p{
+       margin-top: 2em;
+   }
+   .reviews > .irene{
+       margin-top: 2.5em;
+   }
+   .reviews > .anne{
+        margin-top: 5em;
+    }
+    .profile-img{
+        border: transparent;
+        border-radius: 50%;
+        float: left;
+        width: 2.5em;
+    }
+    figure{
+        display: flex;
+        align-items: center;
+    }
+
+    figure > .caption p{
+        opacity: 1;
+        font-size: 0.9rem;
+        margin-left: 1.5rem;
+    }
+    figure .caption .graduate{
+        opacity: 0.5;
+        font-size: 0.8rem;
+        color: hsl(333, 80%, 67%);
+    }
+
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+    @media(max-width: 768px){
+        body{
+            font-family: 'Spartan', sans-serif;
+            background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+            background-position: left top, right bottom;
+            background-repeat: no-repeat;
+        }
+        .reviews{
+            display: block;
+        }
+        .top{
+            display: block;
+        }
+        .reviews > .irene {
+            margin-top: 2em;
+            margin-right: 0;
+        }
+
+        .reviews > .anne {
+             margin-top: 2em;
+             margin-right: 0;
+         }
+         .reviews > .colton{
+            margin-right: 0;
+        }
+         .inguru{
+            margin-left: 0;
+            
+        }
+        .intech{
+            margin-left: 0;
+        }
+        span{
+            display: block;
+        }
+        .stars{
+            width: 100%;
+        }
+    }
