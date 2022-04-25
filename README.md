@@ -1,4 +1,9 @@
 # Frontend-Mentor-Projects
+## Newbie Lvel Project
+
+### Social-proof Section
+This was a very basic project for testing how well I understand layout. View the live site [here](https://eno-social-proof-section.netlify.app/) 
+
 ## Junior Level Projects
 
 ### Advice generator Project
